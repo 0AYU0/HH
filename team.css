@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,800');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.team-section{
+    background: url(Wist\ Logo.png) no-repeat left;
+    background-size: 55%;
+    background-color: rgb(37, 202, 202);
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: white;
+    padding: 150px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 20px;
+    color: black;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+
+@media screen and (max-width: 1000px){
+    .team-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        padding: 80px;
+    }
+}
