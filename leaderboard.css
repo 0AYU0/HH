@@ -40,7 +40,7 @@ body{
 	margin-right: 50px;
 	font-size: 18px;
 	font-weight: 600;
-	color: #3a3d51;
+	color: #000000;
 	cursor: pointer;
 }
 
@@ -53,7 +53,7 @@ body{
 	position: absolute;
 	top: 70px;
 	left: 40px;
-	background: #ffd300;
+	background: #126d12;
 	width: 100%;
 	height: 100%;
 	border-radius: 5px;
@@ -67,7 +67,7 @@ body{
 	display: flex;
 	align-items: center;
 	padding: 15px 0;
-	border-bottom: 1px solid #ffe773;
+	border-bottom: 1px solid #234215;
 }
 
 .lboard_wrap .lboard_mem:first-child{
@@ -94,7 +94,7 @@ body{
 }
 
 .lboard_wrap .lboard_mem .name_bar p{
-	color: #3a3d51;
+	color: #ffffff;
 }
 
 .lboard_wrap .lboard_mem .name_bar p span{
@@ -103,7 +103,7 @@ body{
 
 .lboard_wrap .lboard_mem .points{
 	width: 100px;
-	color: #3a3d51;
+	color: #ffffff;
 }
 
 .lboard_wrap .lboard_mem .name_bar .bar_wrap{
