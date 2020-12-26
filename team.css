@@ -60,7 +60,7 @@ div.a {
 }
 
 .red {
-    text-shadow:-1px -1px 0 #A84155;
+    text-shadow:-1px -1px 0 black;
     background: #bfffff;
     border:1px solid #bfffff;
     
@@ -133,7 +133,7 @@ div.b {
 }
 
 .blue {
-    text-shadow:-1px -1px 0 #A84155;
+    text-shadow:-1px -1px 0 black;
     background: #bfffff;
     border:1px solid #bfffff;
     
